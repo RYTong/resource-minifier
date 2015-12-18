@@ -1,0 +1,22 @@
+{
+  "name": "resource-minifier",
+  "version": "1.0.0",
+  "description": "EMP resource file minifier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "minify": "./bin/minify.js"
+  },
+  "license": "MIT",
+  "author": "lujb",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "del": "^2.2.0",
+    "iterate-files": "^0.1.1",
+    "minimist": "^1.2.0",
+    "mkdir-p": "0.0.7",
+    "underscore": "^1.8.3"
+  }
+}
